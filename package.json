@@ -1,0 +1,22 @@
+{
+  "main": "src/blockchain.js",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4"
+  },
+  "type": "module",
+  "name": "dchain",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": ["blockchain", "demo", "ledger", "crypto"],
+  "description": "A blockchain implementation for demonstration only, not suitable for cryptocurrency or any other production application",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "repository": "https://github.com/tdreid/dchain.git",
+  "bugs": "https://github.com/tdreid/dchain/issues",
+  "scripts": {
+    "test":  "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "coverage":  "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  }
+}
